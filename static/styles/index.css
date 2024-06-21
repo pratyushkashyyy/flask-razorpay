@@ -14,6 +14,10 @@ body {
   }
 
   .container {
+    display:  flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;
@@ -27,13 +31,26 @@ body {
     margin-bottom: 20px;
   }
 
-  .projects {
-    margin-bottom: 20px;
+  .donation{
+    text-align: center;
   }
+  .donation p{
+    color: red;
+  }
+
+  .donation input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 7px;
+    
+  }
+  
 
   .donate-button {
     display: block;
-    padding: 15px;
+    padding: 10px 15px;
     background-color: #28a745;
     color: white;
     border: none;
@@ -42,6 +59,7 @@ body {
     font-size: 18px;
     cursor: pointer;
     text-decoration: none;
+    
   }
 
   .donate-button:hover {

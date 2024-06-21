@@ -16,10 +16,14 @@
           <h2>Hello, I'm Pratyush Kashyap!</h2>
           <p>I am a passionate developer working on open-source projects. Your support helps me keep my projects alive and continue creating more awesome stuff!</p>
         </div>
-        <div class="projects">
+        <div class="donation">
+            <form action="/pay" method="POST">
+            <label>Enter Amount : </label>
+            <input type="text" id="amount">
+            <p>Pay using Razorpay</p>
         </div>
-
-        <a href="https://www.paypal.com/donate" class="donate-button">Donate Now</a>
+        <button class="donate-button">Donate Me</button>
+        </form>
       </div>
   </body>
 </html>
