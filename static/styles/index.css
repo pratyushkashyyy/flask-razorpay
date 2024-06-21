@@ -59,7 +59,8 @@ body {
     font-size: 18px;
     cursor: pointer;
     text-decoration: none;
-    
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .donate-button:hover {
